@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="weatherStyle.css">
+	<title>weather app</title>
+</head>
+<body>
+	<div class="mdiv">
+		<div class="weather_app">
+			<h2 align="center">WEATHER FORECAST</h2>
+			<div class="ip">
+				<input type="text" name="cityName" placeholder="enter city name" id="userText">
+				<button onclick="getWeatheData()">
+					<img src="https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-21.png" height="30px" >
+				</button>
+			</div>
+			<div class="info" align="center"> 
+				<img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" src="https://png.pngtree.com/png-vector/20201128/ourmid/pngtree-dark-clouds-and-raindrops-png-image_2478510.jpg" alt="sunny" class="weather_img">
+				<h1 id="temp">27°C</h1>
+				<h2 id="city">PUNE</h2>
+			</div>
+			<div class="info2">
+				<div class="humidity">
+					<img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" class="humi">
+					<h3>HUMIDITY</h3>
+					<h4 id="humidity-info">50%</h4>
+				</div>
+				<div class="wind">
+					<img src="https://cdn-icons-png.flaticon.com/512/1185/1185449.png" class="humi">
+					<h3>WIND</h3>
+					<h4 id="wind-info">4 km/h</h4>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+<script src="weatherScript.js"></script>
+</body>
+</html>
